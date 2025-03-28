@@ -1,1 +1,33 @@
+LATAR BELAKANG
+Dalam dunia teknologi informasi, database server berperan penting dalam menyimpan dan mengelola data secara efisien. Instalasi dan konfigurasi server database menjadi langkah fundamental bagi pengembang aplikasi dan administrator sistem dalam memastikan performa dan keamanan data yang optimal. Seiring dengan meningkatnya kebutuhan akan sistem informasi yang andal, pemilihan dan konfigurasi server database yang tepat menjadi faktor krusial dalam mendukung kinerja aplikasi, baik untuk skala kecil maupun besar. Kesalahan dalam instalasi dan konfigurasi dapat menyebabkan gangguan operasional, kehilangan data, atau bahkan ancaman keamanan. Oleh karena itu, memahami proses instalasi dan konfigurasi server database MySQL, serta memahami perbedaan antara database relasional dan unrelasional, menjadi keterampilan yang sangat dibutuhkan.
 
+PROBLEM YANG DIANGKAT
+Beberapa tantangan yang sering dihadapi dalam memahami dan mengelola server database antara lain:
+1. Kurangnya pemahaman tentang proses instalasi dan langkah-langkah konfigurasi server database MySQL.
+2. Kesulitan dalam memahami perbedaan antara database relasional dan unrelasional serta kapan harus menggunakan masing-masing.
+3. Kurangnya pemahaman mengenai perbedaan antara MySQL dan MariaDB dalam aspek fitur, performa, dan keamanannya.
+
+SOLUSI ATAU SKENARIO AKTIVITAS
+Untuk mengatasi permasalahan di atas, berikut adalah langkah-langkah yang dilakukan:
+1. Memahami Proses Instalasi: Melakukan instalasi MySQL dari awal hingga selesai melalui command prompt.
+2. Konfigurasi Server Database MySQL: Mengubah port default 3306 menjadi 3309, serta melakukan optimasi innodb_buffer_pool_size.
+3. Perbedaan Database Relasional dan Unrelasional: Menjelaskan karakteristik dan contoh penggunaan masing-masing jenis database.
+4. Perbedaan MySQL dan MariaDB: Menganalisis keunggulan, kelemahan, dan perbedaan utama dari kedua sistem manajemen database ini.
+
+PEMBAHASAN
+Database Relasional vs. Non-Relasional
+Database Relasional adalah jenis database yang menyimpan data dalam tabel dengan struktur yang tetap dan hubungan antar tabel yang didefinisikan melalui kunci primer dan kunci asing. Database ini cocok untuk aplikasi yang memerlukan integritas data tinggi, seperti sistem keuangan dan manajemen inventaris.
+Contoh: MySQL, PostgreSQL, Microsoft SQL Server.
+Database Non-Relasional (NoSQL) menyimpan data dalam format yang lebih fleksibel seperti dokumen, key-value, atau grafik. Database ini lebih cocok untuk data yang tidak terstruktur dan aplikasi dengan kebutuhan skalabilitas tinggi, seperti media sosial dan analitik big data.
+Contoh: MongoDB, Cassandra, Redis.
+Perbedaan utama: Database relasional menggunakan struktur tabel dengan skema yang kaku, sementara database non-relasional lebih fleksibel dalam menangani berbagai jenis data.
+
+Perbedaan MySQL dan MariaDB
+Asal Usul: MySQL dikembangkan oleh Oracle Corporation, sementara MariaDB adalah fork dari MySQL yang dikembangkan oleh komunitas open-source untuk tetap menjaga fitur bebas dan terbuka.
+Performa: MariaDB umumnya menawarkan performa lebih baik dalam skenario multi-threading dan query yang kompleks karena optimasi engine yang lebih efisien.
+Fitur Tambahan: MariaDB memiliki beberapa fitur tambahan seperti lebih banyak storage engine, fitur JSON lebih fleksibel, serta sistem caching yang lebih baik dibandingkan MySQL.
+Kompatibilitas: MariaDB tetap kompatibel dengan MySQL pada sebagian besar aspek, namun ada beberapa perbedaan dalam fitur dan sistem penyimpanan data yang bisa mempengaruhi migrasi dari satu sistem ke yang lain
+
+INSTALASI MY SQL
+
+1. Unduh Installer MySQL dari situs resmi https://www.mysql.com
